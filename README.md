@@ -1,1 +1,1 @@
-https://github.com/aleksandr-s86/homework1_yandex.git
+https://github.com/aleksandr-s86/ono-tebe-nado-fd.git
