@@ -17,7 +17,7 @@
 }
 
 .text_menu {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   list-style: circle;
@@ -25,7 +25,11 @@
   border-bottom: 1px solid black;
 }
 
-.nonedecoration {
+.text_menu_no-bullit {
+  list-style: none;
+}
+
+.none_decoration {
   text-decoration: none;
 }
 
@@ -36,7 +40,7 @@
 }
 
 .contakts {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -47,7 +51,7 @@
   padding-right: 40px;
 }
 
-.contaktstyle {
+.contakt_style {
   list-style: none;
   text-decoration: none;
   border-bottom: 2px solid black;
@@ -55,7 +59,7 @@
 }
 
 .cover {
-  background-image: url(./../images/lotus-flower.svg);
+  background-image: url(../images/lotus-flower.svg);
   min-height: 757px;
   position: relative;
   z-index: 0;
@@ -73,32 +77,33 @@
 .head_cover {
   position: relative;
   z-index: 1;
-  padding: 165px 50px 86px;
+  padding: 165px 50px 106px;
 }
 
 .cover-span {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 100px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   display: block;
   letter-spacing: 0.3em;
   line-height: 115px;
-  margin-bottom: 20px;
 }
 
 .center {
   text-align: center;
+  padding-top: 20px;
   padding-left: 31px;
 }
 
 .right {
   display: block;
   text-align: end;
+  padding-top: 20px;
 }
 
-.letterspacingnormal {
+.letter_spacing_normal {
   letter-spacing: normal;
 }
 
@@ -111,19 +116,19 @@
 }
 
 .text_cover {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 22px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   word-spacing: 18.5px;
 }
 
 .button {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   background-color: transparent;
   border: 1px solid white;
@@ -138,7 +143,7 @@
 }
 
 .lots__heading {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: #000000;
@@ -163,19 +168,18 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-
 }
 
 .film {
-  background-image: url(./../images/film.svg);
+  background-image: url(../images/film.svg);
 }
 
 .book {
-  background-image: url(./../images/book.svg);
+  background-image: url(../images/book.svg);
 }
 
 .image {
-  background-image: url(./../images/image.svg);
+  background-image: url(../images/image.svg);
 }
 
 .href_lots {
@@ -200,26 +204,25 @@
 }
 
 .head_card {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: 700;
   font-size: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .card_text {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 .more_lots {
   margin-left: 40px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #000000;
@@ -256,7 +259,7 @@
 }
 
 .head_about {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 40px;
   color: #000000;
@@ -272,7 +275,7 @@
 }
 
 .text-about {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -286,7 +289,7 @@
   padding: 0 0 82px 50px;
 }
 
-.footercenter {
+.footer_center {
   display: flex;
   justify-self: center;
   padding-right: 49px;
@@ -299,7 +302,7 @@
 }
 
 .footer_menu {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
   list-style: none;
@@ -315,6 +318,5 @@
 }
 
 .link-active {
-  list-style: none;
   border-bottom: none;
 }
