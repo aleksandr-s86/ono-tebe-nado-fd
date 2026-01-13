@@ -25,9 +25,8 @@
   border-bottom: 1px solid black;
 }
 
-.nocirkle {
-  list-style: none;
-  border-bottom: none;
+.nonedecoration{
+  text-decoration: none;
 }
 
 .logo {
@@ -48,11 +47,8 @@
   padding-right: 40px;
 }
 
-.black {
-  list-style: none;
-}
-
 .contaktstyle {
+  list-style: none;
   text-decoration: none;
   border-bottom: 2px solid black;
   width: 133px;
@@ -62,16 +58,14 @@
   background-image: url(./../images/lotus-flower.svg);
   min-height: 757px;
   position: relative;
-  margin-bottom: 180px;
   z-index: 0;
-
 }
 
 .overlay {
   position: absolute;
   background-color: black;
-  height: 100%;
-  width: 100%;
+  inset: 0;
+  justify-self: auto;
   z-index: -1;
   opacity: 0.6;
 }
@@ -79,9 +73,7 @@
 .head_cover {
   position: relative;
   z-index: 1;
-  inset: 165px 50px 207px 50px;
-  width: 1000px;
-  height: 385px;
+  padding: 165px 50px 86px;
 }
 
 .cover-span {
@@ -98,23 +90,24 @@
 
 .center {
   text-align: center;
-  padding-left: 30px;
+  padding-left: 31px;
 }
 
 .right {
-  text-align: right;
-  padding-left: 615px;
+  display: block;
+  text-align: end;
+}
+
+.letterspacingnormal{
+  letter-spacing: normal;
 }
 
 .description {
   display: flex;
-  height: 51px;
-  width: 1000px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   z-index: 1;
-  position: absolute;
-  inset: 656px 50px;
+  position: relative;
 }
 
 .text_cover {
@@ -139,8 +132,9 @@
 
 .lots {
   width: 1052px;
-  height: 723px;
+  min-height: 723px;
   justify-self: center;
+  margin-top: 180px;
 }
 
 .lots__heading {
@@ -163,7 +157,7 @@
 
 .card {
   width: 334px;
-  height: 596px;
+  min-height: 596px;
   background-size: cover;
   background-position: center;
   list-style: none;
@@ -236,7 +230,7 @@
 
 .about {
   width: 1052px;
-  padding-top: 156px;
+  padding-top: 150px;
   padding-bottom: 181px;
   display: grid;
   grid-template-columns: 334px auto;
@@ -304,17 +298,23 @@
   align-items: center;
 }
 
-.footerborder {
-  text-decoration: none;
-  border-bottom: 2px solid black;
-}
-
-.social {
-  padding-left: 10px;
+.footer_menu {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  list-style: none;
+  text-transform: lowercase;
+  border-bottom: 1px solid black;
 }
 
 .social_list {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  padding-left: 10px;
+}
+
+.link-active {
+  list-style: none;
+  border-bottom: none;
 }
